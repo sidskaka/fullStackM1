@@ -12,14 +12,14 @@ module.exports = {
       options: {
         name: `products`,
         path: `${__dirname}/products`,
-      },
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `categories`,
         path: `${__dirname}/categories`,
-      },
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,
